@@ -219,6 +219,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5b7be14df9fdee41b93e370bd26582f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LeftAction:
+    m_Name: Left
+    m_Type: 1
+    m_ExpectedControlType: Button
+    m_Id: 91b465c4-c948-4f3d-a169-8de332309186
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 99d9f89c-0e3a-427c-a0cf-79fabb6ab855
+      m_Path: <Keyboard>/leftArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Left
+      m_Flags: 0
+    m_Flags: 0
 --- !u!1 &779147951
 GameObject:
   m_ObjectHideFlags: 0
