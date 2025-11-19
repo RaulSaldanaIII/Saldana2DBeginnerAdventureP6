@@ -50,8 +50,8 @@ public class PlayerController : MonoBehaviour
 
 
         Vector2 position = transform.position;
-        position.x = position.x + 0.1f * horizontal;
-        position.y = position.y + 0.1f * vertical;
+        position.x = position.x + 0.01f * horizontal;
+        position.y = position.y + 0.01f * vertical;
         transform.position = position;
     }
 }
